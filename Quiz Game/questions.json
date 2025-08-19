@@ -1,0 +1,22 @@
+[
+  {
+    "question": "What is the capital city of India?",
+    "options": ["Delhi", "Mumbai", "Kolkata", "Chennai"],
+    "answer": "a"
+  },
+  {
+    "question": "What is 2 + 2?",
+    "options": ["3", "4", "5", "22"],
+    "answer": "b"
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Jupiter", "Venus"],
+    "answer": "b"
+  },
+  {
+    "question": "Which language is used to build Android apps in Jetpack Compose?",
+    "options": ["Java", "Python", "Kotlin", "C++"],
+    "answer": "c"
+  }
+]

@@ -1,0 +1,84 @@
+# schema.graphqls
+
+#############################
+# GraphQL Types
+#############################
+
+type User {
+    id: ID!
+    username: String!
+    email: String!
+    role: String!
+}
+
+type Author {
+    id: ID!
+    name: String!
+    bio: String
+}
+
+type Book {
+    id: ID!
+    title: String!
+    author: Author!
+    publishedYear: Int
+    genre: String
+    page: Int
+}
+
+type Review {
+    id: ID!
+    book: Book!
+    user: User!
+    text: String
+    rating: Int
+}
+
+#############################
+# Queries
+#############################
+
+type Query {
+    # Users
+    getUserByID(id: ID!): User
+    getUserByEmail(email: String!): User
+    listUsers: [User!]!
+
+    # Authors
+    getAuthorByID(id: ID!): Author
+    listAuthors: [Author!]!
+
+    # Books
+    getBookByID(id: ID!): Book
+    listBooks: [Book!]!
+
+    # Reviews
+    getReviewByID(id: ID!): Review
+    listReviews: [Review!]!
+}
+
+#############################
+# Mutations
+#############################
+
+type Mutation {
+    # Users
+    createUser(username: String!, email: String!, password: String!, role: String!): User!
+
+    # Authors
+    createAuthor(name: String!, bio: String): Author!
+
+    # Books
+    createBook(title: String!, authorID: ID!, publishedYear: Int, genre: String, page: Int): Book!
+
+    # Reviews
+    createReview(bookID: ID!, userID: Int!, text: String, rating: Int): Review!
+
+}
+
+#############################
+# Subscriptions (optional for now)
+#############################
+# type Subscription {
+#     newReview: Review!
+# }

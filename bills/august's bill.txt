@@ -1,0 +1,6 @@
+Bill breakdown: 
+apple                     .....$344 
+mango                     .....$33.11 
+cake                      .....$4.33 
+tip:                     ......$13
+total:                   ......$394.44

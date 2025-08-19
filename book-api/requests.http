@@ -1,0 +1,12 @@
+### Create a new book
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "title": "Clean Code",
+  "status": "to be read",
+  "genre" : "self-help"
+}
+
+### Get all books
+GET http://localhost:8080/books

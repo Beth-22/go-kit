@@ -1,0 +1,6 @@
+Bill breakdown: 
+veggie stew               .....$5.33 
+pudding                   .....$4.55 
+tofu                      .....$23.11 
+tip:                     ......$23
+total:                   ......$55.99

@@ -1,0 +1,19 @@
+3 parts of jwt
+
+
+
+header
+-info about the type of token(jwt) and type of algorithm used for encoding
+
+
+
+payload
+-the info being transmitted, typically info about the user, user id, username...
+
+
+signature
+
+-combination of the encoded header, encoded payload and our secret phrase to sign our tokens
+
+
+
