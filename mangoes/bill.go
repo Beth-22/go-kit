@@ -17,7 +17,7 @@ type bill struct{
 
 
 //make new bills
-                   //return type-bill
+//return type-bill
 func newBill(name string) bill{
 	b := bill{
 		name: name,
@@ -28,7 +28,7 @@ func newBill(name string) bill{
 	return b
 }
 
-//adding methods using receiver function
+//adding methods using receiver function.
 
 //format bill (b bill) so that it can only be called thru bill, it must accept bill first.
 
