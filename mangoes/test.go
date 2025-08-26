@@ -28,7 +28,8 @@ func cycleNames(n []string, f func(string)){
 
 
 //return
-                        //return type
+
+//return type
 func circleArea(r float64) float64{
 	return math.Pi * r * r
 }
