@@ -1,0 +1,23 @@
+CREATE TABLE users
+   id PRIMARY KEY
+   username TEXT
+   email TEXT
+
+
+CREATE TABLE movies
+     id PRIMARY KEY
+     title   TEXT
+     release_year  INT
+     genre   TEXT
+
+
+CREATE TABLES user_movies
+    user_id REFERENCES id FROM users TABLE
+    movie_id REFERENCES id FROM movies TABLE
+    status TEXT  
+    rating INT
+    review TEXT
+         
+
+
+
