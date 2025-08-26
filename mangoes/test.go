@@ -134,7 +134,7 @@ for index, value := range friends{
 }
 */
 
-//booleans and conditionals
+//booleans and conditionals.
 
 
 /*
