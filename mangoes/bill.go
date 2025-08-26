@@ -7,7 +7,7 @@ import (
 
 //custom type
 //kinda like a class
-//struct describes a blueprint of some data
+//struct describes a blueprint of some data. 
 
 type bill struct{
 	name string
