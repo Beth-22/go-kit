@@ -25,7 +25,7 @@ func menus(){
 
 
 
- //looping thru the menu
+ //looping thru the menu.
 
  for k, v := range menu{
 	fmt.Println(k, "-", v)
