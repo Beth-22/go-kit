@@ -32,7 +32,7 @@ func menus(){
  }
 
 
- //ints as key type
+ //ints as key type.
  //variable := map [key type] valuetype
 
  phonebook := map[int]string{
