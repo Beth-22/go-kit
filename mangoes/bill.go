@@ -30,7 +30,7 @@ func newBill(name string) bill{
 
 //adding methods using receiver function.
 
-//format bill (b bill) so that it can only be called thru bill, it must accept bill first.
+//format bill (b bill) so that it can only be called thru bill, it must accept bill first
 
 func (b bill) format() string{
 	fs := "Bill breakdown: \n"
