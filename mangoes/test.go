@@ -125,7 +125,7 @@ for i := 0; i<len(friends); i++{
 	fmt.Println(friends[i])
 }
 */
-//kinda like for in.
+//kinda like for in
 
 /*
 for index, value := range friends{
