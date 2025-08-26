@@ -7,7 +7,7 @@ import (
 	/*"sort"
 	"strings"*/)
 
-//functions
+//function
 
 func sayHello(n string){
 	fmt.Printf("Hello %v \n", n)
