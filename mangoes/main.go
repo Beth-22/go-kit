@@ -6,7 +6,7 @@ import (
 	"os"
 	"strconv"
 	"strings"
-) //package-for formatting strings and printing stuff to the console. fmt.Capitalmethod, fmt.Println
+) //package-for formatting strings and printing stuff to the console. fmt.Capitalmethod, fmt.Println.
 
 
 func getInput(prompt string, r *bufio.Reader) (string,error){
