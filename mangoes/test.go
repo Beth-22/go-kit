@@ -17,7 +17,7 @@ func sayBye(n string){
 	fmt.Printf("byee %v \n", n)
 }
 
-//a slice and a function that takes in strings-parameters.
+//a slice and a function that takes in strings-parameters
 func cycleNames(n []string, f func(string)){
 	for _, v := range n{
 		f(v)
