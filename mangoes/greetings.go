@@ -12,7 +12,7 @@ func sayHi(n string){
 
 
 
-//maps
+//maps,
 
 func menus(){
 
